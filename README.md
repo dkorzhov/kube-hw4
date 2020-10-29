@@ -2,14 +2,15 @@ It checked on minikube.
 
 HW 4-1
 Pods kube-system:
-coredns-66bff467f8-r6jkq - static pods, start kubelet, recovery ReplicaSet.
-etcd-minikube - pod for base, start from binary file or with kube-api-server, recovery Replication Controller.
-ingress-nginx-controller-799dcd5d57-2kq8f - start from manifest, recovery ReplicaSet.
-kube-apiserver-minikube - static pods, start kubelet, recovery Replication Controller.
-kube-controller-manager-minikube - static pods, start kubelet, recovery Replication Controller.
-kube-proxy-7l6k8 - static pods, start kubelet, recovery Replication Controller.
-kube-scheduler-minikube - static pods, start kubelet, recovery Replication Controller.
-storage-provisioner - start minikube, restart minikube for recovery.
+
+1. coredns-66bff467f8-r6jkq - static pods, start kubelet, recovery ReplicaSet.
+2. etcd-minikube - pod for base, start from binary file or with kube-api-server, recovery Replication Controller.
+3. ingress-nginx-controller-799dcd5d57-2kq8f - start from manifest, recovery ReplicaSet.
+4. kube-apiserver-minikube - static pods, start kubelet, recovery Replication Controller.
+5. kube-controller-manager-minikube - static pods, start kubelet, recovery Replication Controller.
+6. kube-proxy-7l6k8 - static pods, start kubelet, recovery Replication Controller.
+7. kube-scheduler-minikube - static pods, start kubelet, recovery Replication Controller.
+8. storage-provisioner - start minikube, restart minikube for recovery.
 
 
 HW 4-2
